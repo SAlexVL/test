@@ -1,0 +1,335 @@
+body {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desctop,
+.footer {
+  background-color: #ffdeb0;
+}
+
+.desctop-wrap,
+.footer-wrap {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 21px;
+}
+
+.desctop-wrap h1,
+.footer-wrap h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: MuseoCyrl-700;
+  text-align: center;
+  color: #ca7706;
+}
+
+.main {
+  width: 85.07%;
+  height: 312px;
+  margin: 33px auto 22px auto;
+  background: url("../img/main/patoka-bg.svg") right no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-hashtag {
+  width: 33%;
+}
+
+.container-coolpage {
+  width: 32%;
+}
+
+.container-find {
+  width: 34%;
+}
+
+.container-coolpage__photo {
+  width: 93.1px;
+  height: 93.10px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+  border: solid 3px #ffffff;
+  border-radius: 49px;
+  background-color: #cad4e1;
+  margin: 26px auto 28px auto;
+}
+
+.container-coolpage__title {
+  font-family: MuseoCyrl-700;
+  font-size: 28px;
+  line-height: 0.5;
+  text-align: center;
+  color: #21224e;
+}
+
+.container-coolpage__folowers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 12px;
+}
+
+.container-coolpage__folowers-photo {
+  width: 30px;
+  height: 30px;
+  border: solid 3px #ffffff;
+  border-radius: 18px;
+  background-color: #5e6d82;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.container-coolpage__folowers-text p {
+  font-family: CeraProMedium;
+  font-size: 13px;
+  font-weight: 500;
+  color: #21224e;
+  margin-top: 33px;
+  margin-left: 7px;
+}
+
+.container-find__publication {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 41px;
+  cursor: pointer;
+}
+
+.container-find__publication-articles,
+.container-find__publication-interview,
+.container-find__publication-experience,
+.container-find__publication-expert,
+.container-find__publication-magazines,
+.container-find__publication-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  min-width: 100px;
+}
+
+.container-find__publication-articles:hover span,
+.container-find__publication-interview:hover span,
+.container-find__publication-experience:hover span,
+.container-find__publication-expert:hover span,
+.container-find__publication-magazines:hover span,
+.container-find__publication-photo:hover span {
+  color: #f90008;
+}
+
+.container-find__publication-expert {
+  margin-left: 12%;
+  margin-right: 7%;
+}
+
+.container-find__publication span {
+  text-align: center;
+  font-family: CeraProMedium;
+  font-size: 13px;
+  font-weight: 500;
+  color: #21224e;
+}
+
+.container-find__publication img {
+  margin-top: 30px;
+}
+
+.container-find__finding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.container-find__finding-edit {
+  width: 300px;
+  height: 33px;
+  border-radius: 18.5px;
+  border: solid 1px #cad4e1;
+  margin-left: 28px;
+}
+
+.container-find__finding-button {
+  width: 90px;
+  height: 37px;
+  border-radius: 18.5px;
+  background-color: #cad4e1;
+  margin-left: -70px;
+  padding-left: 20px;
+  font-family: CeraProBold;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #5e6d82;
+  cursor: pointer;
+}
+
+.container-find__feedback {
+  font-family: CeraProMedium;
+  font-size: 13px;
+  font-weight: 500;
+  color: #383aaa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-find__feedback-wrap {
+  margin-left: 14%;
+  cursor: pointer;
+}
+
+.container-find__feedback-wrap hr {
+  border: none;
+  width: 98px;
+  height: 2px;
+  margin-left: 10px;
+  margin-top: 2px;
+  background-color: #cad4e1;
+}
+
+.container-find__feedback-hr hr {
+  width: 128px;
+}
+
+.button-wrap {
+  margin-left: 25%;
+  margin-top: 19px;
+}
+
+.button-theme,
+.button-group {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 109.5px;
+  height: 37px;
+  border-radius: 2px;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+  font-family: CeraProBold;
+  cursor: pointer;
+}
+
+.button-theme:hover,
+.button-group:hover {
+  background-color: #f4f7fb;
+}
+
+.themes,
+.group {
+  margin-top: 26px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.themes-wrap__button,
+.group-wrap__button {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: CeraProMedium;
+  font-weight: 500;
+  line-height: 1.17;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 5px 14px 7px 14px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: solid 1px #cad4e1;
+  cursor: pointer;
+}
+
+.photo-cool1 {
+  z-index: 100;
+}
+
+.photo-cool2 {
+  z-index: 99;
+  margin-left: -24px;
+}
+
+.photo-cool2:hover {
+  z-index: 101;
+}
+
+.photo-cool3 {
+  z-index: 98;
+  margin-left: -24px;
+}
+
+.photo-cool3:hover {
+  z-index: 101;
+}
+
+.photo-cool4 {
+  z-index: 97;
+  margin-left: -24px;
+}
+
+.photo-cool4:hover {
+  z-index: 101;
+}
+
+.photo-cool5 {
+  z-index: 96;
+  margin-left: -24px;
+}
+
+.photo-cool5:hover {
+  z-index: 101;
+}
+
+.button-folow {
+  width: 220px;
+  height: 38px;
+  margin-left: 84px;
+  border-radius: 18.5px;
+  -webkit-box-shadow: 0 4px 16px 0 rgba(141, 188, 36, 0.55);
+  box-shadow: 0 4px 16px 0 rgba(141, 188, 36, 0.55);
+  background-color: #8dbc24;
+  text-shadow: 0 1px 0 #669400;
+  font-family: CeraProBold;
+  font-size: 13px;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-folow img {
+  margin-right: 7px;
+  margin-bottom: -6px;
+}
+
+.container-find__finding input {
+  font-family: CeraProBold;
+  font-size: 12px;
+  color: #99999a;
+  padding-left: 20px;
+}

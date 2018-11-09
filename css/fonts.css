@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'MuseoCyrl-700';
+    src: url('../fonts/MuseoCyrl/MuseoCyrl-700.woff2');
+}
+
+@font-face {
+    font-family: 'MuseoCyrl-900';
+    src: url('../fonts/MuseoCyrl/MuseoCyrl-900.woff2');
+}
+
+@font-face {
+    font-family: 'CeraProBold';
+    src: url('../fonts/CeraPro/CeraPro-Bold.eot');
+    src: local('../fonts/CeraPro/CeraPro-Bold'), local('../fonts/CeraPro/CeraPro-Bold'),
+        url('../fonts/CeraPro/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CeraPro/CeraPro-Bold.woff') format('woff'),
+        url('../fonts/CeraPro/CeraPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CeraProMedium';
+    src: url('../fonts/CeraPro/CeraPro-Medium.eot');
+    src: local('../fonts/CeraPro/Cera Pro Medium'), local('../fonts/CeraPro/CeraPro-Medium'),
+        url('../fonts/CeraPro/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CeraPro/CeraPro-Medium.woff') format('woff'),
+        url('../fonts/CeraPro/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
